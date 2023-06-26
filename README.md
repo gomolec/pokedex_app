@@ -1,7 +1,7 @@
 
-# Pokédex App
+# PokédexApp
 
-Pokédex App to aplikacja, którą napisałem w ramach praktych zawodowych, pomogła mi ona zrozumieć i przyjąć zasady Clean Architecture. Ponadto aplikacja pobieran dane z publicznego API - [POKEAPI](https://pokeapi.co/).
+Aplikacja PokédexApp jest demonstracją moich umiejętności programistycznych zdobytych podczas praktyk zawodowych, w szczególności znajomości zasad "Clean Architecture" oraz umiejętności integracji z zewnętrznym API - [POKEAPI](https://pokeapi.co/). Pozwala ona na przeglądanie listy Pokémonów, wyświetlanie szczegółowych informacji o nich oraz ich wyszukiwanie.
 
 
 ## Screenshots
@@ -14,8 +14,8 @@ Pokédex App to aplikacja, którą napisałem w ramach praktych zawodowych, pomo
 ## Features
 
 - Wyświetlanie listy pokémonów z zastosowaniem paginacji, by ograniczyć ilość pobieranych danych 
-- Po kliknięciu danego elementu zostajemy przeniesieni na ekran ze szczegółami
-- Możliwość wyszukiwania pokémonów po ich nazwie lub kodzie
+- Po kliknięciu danego elementu zostajemy przeniesieni na ekran ze szczegółowymi informacjami
+- Możliwość wyszukiwania pokémonów po ich nazwie lub miedzynarodowym identyfikatorze
 
 
 ## Tech Stack (packages)
