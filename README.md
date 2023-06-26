@@ -1,16 +1,26 @@
-# pokedex
 
-A new Flutter project.
+# Pokédex App
 
-## Getting Started
+Pokédex App to aplikacja, którą napisałem w ramach praktych zawodowych, pomogła mi ona zrozumieć i przyjąć zasady Clean Architecture. Ponadto aplikacja pobieran dane z publicznego API - [POKEAPI](https://pokeapi.co/).
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+|  |  |
+|:---:|:---:|
+| ![App Screenshot](readme_assets/screenshot1.png) | ![App Screenshot](readme_assets/screenshot2.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Features
+
+- Wyświetlanie listy pokémonów z zastosowaniem paginacji, by ograniczyć ilość pobieranych danych 
+- Po kliknięciu danego elementu zostajemy przeniesieni na ekran ze szczegółami
+- Możliwość wyszukiwania pokémonów po ich nazwie lub kodzie
+
+
+## Tech Stack (packages)
+
+ - **Pobieranie danych z API** - [Http](https://pub.dev/packages/http)
+ - **State managment** - [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
+ - **Zapisywanie danych lokalnie** - [Hive](https://pub.dev/packages/hive)
+ - Equatable, rxdart, dartz
