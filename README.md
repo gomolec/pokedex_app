@@ -21,6 +21,6 @@ Aplikacja PokédexApp jest demonstracją moich umiejętności programistycznych 
 ## Tech Stack (packages)
 
  - **Pobieranie danych z API** - [Http](https://pub.dev/packages/http)
- - **State managment** - [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
+ - **State Management** - [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
  - **Zapisywanie danych lokalnie** - [Hive](https://pub.dev/packages/hive)
  - Equatable, rxdart, dartz
